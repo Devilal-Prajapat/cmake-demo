@@ -8,9 +8,11 @@ basic learning using cmake
 4. g++
 
 ## run following command
+```
+cd <example-folder>
 mkdir build
 cd build
 cmake ..                         // To generate build files with default generator
 cmake -G"MinGW Makefiles" ..    // To generate build system files with <user defined> generator
 cmake --build .                 // To build the project
-
+```
