@@ -2,11 +2,11 @@ cmake_minimum_required(VERSION 3.1)
 
 project(Hello)
 
-add_library(math STATIC src/math.c)
-target_include_directories(math PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}src/")
+add_library(math STATIC src/math/math.c)
+target_include_directories(math PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}/src/math/include")
 
 add_executable(Hello src/main.c)
-target_include_directories(Hello PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}src/")
+target_include_directories(Hello PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}/src/")
 target_link_libraries(Hello PRIVATE math)
 
 ## run following command

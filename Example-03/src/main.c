@@ -4,6 +4,6 @@
 int main(void)
 {
     printf("Cmake tutorial\r\n");
-    printf("addition is %d\r\n", add(5, 8));
+    printf("addition is %d\r\n", add(15, 8));
     return 0;
 }
