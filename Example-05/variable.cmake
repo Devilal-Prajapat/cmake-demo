@@ -1,4 +1,5 @@
 #  used to comment 
+# to run the cmake script : cmake -P <filename.cmake>
 # set(<>) is used to define variable
 
 set(VAR1 "Hello")

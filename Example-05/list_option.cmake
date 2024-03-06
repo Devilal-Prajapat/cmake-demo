@@ -1,4 +1,5 @@
 #  used to comment 
+# to run the cmake script : cmake -P <filename.cmake>
 # LIST<>
 #working with list
 

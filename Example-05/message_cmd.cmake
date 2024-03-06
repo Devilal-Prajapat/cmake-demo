@@ -1,4 +1,5 @@
 #  used to comment 
+# to run the cmake script : cmake -P <filename.cmake>
 # message(<args>) this is used to show messgae on console
 
 # message command 
